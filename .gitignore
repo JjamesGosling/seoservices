@@ -1,0 +1,14 @@
+# Ignore Next.js build output
+.next
+
+# Ignore Node.js modules
+node_modules
+
+# Optional: Ignore other common files/folders
+.DS_Store
+.env.local
+.env.development
+.env.production
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
