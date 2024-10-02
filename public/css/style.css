@@ -543,6 +543,7 @@ html.lenis {
 
 .main-menu .navbar-nav .submenu li.dropdown-nav > a::after {
   position: absolute;
+  transform: rotate(-90deg);
 }
 
 /* Mobile menu */

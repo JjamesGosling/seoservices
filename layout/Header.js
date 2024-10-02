@@ -19,28 +19,20 @@ const Header = () => {
             <div className="main-menu">
               <nav className="navbar-nav m-auto" id="navbarNav">
                 <ul>
-                  <li className="dropdown-nav">
-                    <a href="#" className="text_hover_animaiton">
+                  <li>
+                    <Link href="/" className="text_hover_animaiton">
                       <TextHoverAnimation text={"Home"} />
-                    </a>
-                    <ul className="submenu">
-                      <li>
-                        <Link href="/">Home 1</Link>
-                      </li>
-                      <li>
-                        <Link href="index_2">Home 2</Link>
-                      </li>
-                    </ul>
+                    </Link>
                   </li>
                   <li>
-                    <Link href="about_us" className="text_hover_animaiton">
+                    <Link href="about-us" className="text_hover_animaiton">
                       <TextHoverAnimation text={"About"} />
                     </Link>
                   </li>
                   <li className="dropdown-nav">
-                    <a href="#" className="text_hover_animaiton">
-                      <TextHoverAnimation text={"Pages"} />
-                    </a>
+                    <Link href="services" className="text_hover_animaiton">
+                      <TextHoverAnimation text={"Services"} />
+                    </Link>
                     <ul className="submenu">
                       <li className="dropdown-nav">
                         <a href="#">Services</a>
@@ -52,44 +44,6 @@ const Header = () => {
                             <Link href="service_details">Service Details</Link>
                           </li>
                         </ul>
-                      </li>
-                      <li className="dropdown-nav">
-                        <a href="#">Portfolio</a>
-                        <ul className="submenu">
-                          <li>
-                            <Link href="portfolio">Portfolio List</Link>
-                          </li>
-                          <li>
-                            <Link href="portfolio_2">Portfolio Grid</Link>
-                          </li>
-                          <li>
-                            <Link href="portfolio_details">
-                              Portfolio Details
-                            </Link>
-                          </li>
-                        </ul>
-                      </li>
-                      <li>
-                        <Link href="team_page">Team List</Link>
-                      </li>
-                      <li>
-                        <Link href="error">404</Link>
-                      </li>
-                    </ul>
-                  </li>
-                  <li className="dropdown-nav">
-                    <a href="#" className="text_hover_animaiton">
-                      <TextHoverAnimation text={"Blog"} />
-                    </a>
-                    <ul className="submenu">
-                      <li>
-                        <Link href="blog_grid">Blog Grid</Link>
-                      </li>
-                      <li>
-                        <Link href="blog_list">Blog List</Link>
-                      </li>
-                      <li>
-                        <Link href="blog_details">Blog Details</Link>
                       </li>
                     </ul>
                   </li>

@@ -76,14 +76,6 @@ const Footer = () => {
                   Contact
                 </Link>
               </li>
-              <li>
-                <Link
-                  href="blog_grid"
-                  className="text_hover_animaiton text_hover_type_2"
-                >
-                  Blog
-                </Link>
-              </li>
             </ul>
           </div>
           <div className="col-xl-2 col-md-6 col-lg-3">
@@ -100,17 +92,14 @@ const Footer = () => {
                 <a href="mailto:needhelp@company.com">needhelp@company.com</a>
                 <a href="callto:+926668880000">+92 (666) 888 0000</a>
               </p>
-              <p>
-                <a href="mailto:needhelp@company.com">youmail@company.com</a>
-                <a href="callto:+926668880000">+80 (222) 888 11110</a>
-              </p>
+             
             </div>
           </div>
         </div>
         <div className="row">
           <div className="col-12">
             <div className="footer_copyright">
-              <p>Copyright © 2024 Codeefly. All rights reserved.</p>
+              <p>Copyright © 2024 SEO Services. All rights reserved.</p>
             </div>
           </div>
         </div>

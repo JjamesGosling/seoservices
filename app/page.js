@@ -518,129 +518,7 @@ const page = () => {
       {/*===============================
   COUNTER END
     ===============================*/}
-      {/*===============================
-  ACHIVEMENT START
-    ===============================*/}
-      <section className="achivement pt_100 xs_pt_50 pb_120 xs_pb_70">
-        <div className="container">
-          <div className="row justify-content-between">
-            <div className="col-xl-5 col-lg-6">
-              <div className="section_heading">
-                <h5>ACHIVEMENTS</h5>
-                <h2 data-text-animation="" data-split="word">
-                  Company awards &amp; achievements
-                </h2>
-              </div>
-            </div>
-            <div className="col-xl-5 col-lg-6">
-              <div className="achivement_right_text">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipiscing elit viverra
-                  purus senectus sapien habitant rutrum himenaeos curabitur
-                  posuere congue ac non eu odio tempor placerat id.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="row justify-content-between mt_50">
-            <div className="col-xxl-3 col-md-6 col-lg-4 col-xl-4">
-              <div className="achivement_img">
-                <div className="img_1">
-                  <div data-animation="img-blur">
-                    <img
-                      src="images/achivement_img_1.jpg"
-                      alt="achivement"
-                      className="img-fluid w-100"
-                    />
-                  </div>
-                </div>
-                <div className="img_2">
-                  <div data-animation="img-blur">
-                    <img
-                      src="images/achivement_img_2.jpg"
-                      alt="achivement"
-                      className="img-fluid w-100"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-xxl-8 col-lg-8 col-xl-8">
-              <div className="achivement_list">
-                <ul>
-                  <li data-animation="">
-                    <div className="icon">
-                      <img
-                        src="images/achivement_icon_1.png"
-                        alt="icon"
-                        className="img-fluid w-100"
-                      />
-                    </div>
-                    <div className="text">
-                      <h4>Awwwards Interior excellence.</h4>
-                      <span>2015</span>
-                      <a href="#" className="achivement_link">
-                        <i className="fx-icon-long-next-arrow" />
-                      </a>
-                    </div>
-                  </li>
-                  <li data-animation="">
-                    <div className="icon">
-                      <img
-                        src="images/achivement_icon_2.png"
-                        alt="icon"
-                        className="img-fluid w-100"
-                      />
-                    </div>
-                    <div className="text">
-                      <h4>Best Site of the Year Awards.</h4>
-                      <span>2018</span>
-                      <a href="#" className="achivement_link">
-                        <i className="fx-icon-long-next-arrow" />
-                      </a>
-                    </div>
-                  </li>
-                  <li data-animation="">
-                    <div className="icon">
-                      <img
-                        src="images/achivement_icon_3.png"
-                        alt="icon"
-                        className="img-fluid w-100"
-                      />
-                    </div>
-                    <div className="text">
-                      <h4>Template of the seasons in this month.</h4>
-                      <span>2020</span>
-                      <a href="#" className="achivement_link">
-                        <i className="fx-icon-long-next-arrow" />
-                      </a>
-                    </div>
-                  </li>
-                  <li data-animation="">
-                    <div className="icon">
-                      <img
-                        src="images/achivement_icon_4.png"
-                        alt="icon"
-                        className="img-fluid w-100"
-                      />
-                    </div>
-                    <div className="text">
-                      <h4>Best Selling of this week &amp; month.</h4>
-                      <span>2023</span>
-                      <a href="#" className="achivement_link">
-                        <i className="fx-icon-long-next-arrow" />
-                      </a>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/*===============================
-  ACHIVEMENT END
-    ===============================*/}
+    
       {/*===============================
   TESTIMONIAL START
     ===============================*/}
@@ -851,6 +729,106 @@ const page = () => {
       {/*============================
   BRAND END
     =============================*/}
+ {/*============================
+  HOME 2 CONTACT START
+    =============================*/}
+      <section className="home_2_contact mt_60 pt_105 xs_pt_70 pb_110 xs_pb_70">
+        <div className="container">
+          <div className="row justify-content-between">
+            <div className="col-xl-6">
+              <div className="section_heading section_heading_2">
+                <h2 data-text-animation="" data-split="char" data-duration={1}>
+                  Stay informed on all things Fxotary👍
+                </h2>
+                <p />
+              </div>
+            </div>
+            <div className="col-xl-4">
+              <div className="home_2_contact_text">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipiscing elit viverra
+                  purus senectus sapien habitant rutrum himena curabitur
+                  posuerecongue ac non eu odio
+                </p>
+              </div>
+            </div>
+          </div>
+          <form className="tf__contact_form">
+            <div className="row">
+              <div className="col-md-6">
+                <div className="tf__contact_form_imput">
+                  <label>First Name:</label>
+                  <input type="text" placeholder="e.g. Willy" />
+                </div>
+              </div>
+              <div className="col-md-6">
+                <div className="tf__contact_form_imput">
+                  <label>Email:</label>
+                  <input type="email" placeholder="e.g. youremail@gmail.com" />
+                </div>
+              </div>
+              <div className="col-md-6">
+                <div className="tf__contact_form_imput">
+                  <label>Phone:</label>
+                  <input type="text" placeholder="e.g. +8801" />
+                </div>
+              </div>
+              <div className="col-md-6">
+                <div className="tf__contact_form_imput">
+                  <label>subject:</label>
+                  <input type="text" placeholder="e.g. I need help" />
+                </div>
+              </div>
+              <div className="col-xl-12">
+                <div className="tf__contact_form_imput">
+                  <label>Message:</label>
+                  <textarea
+                    rows={4}
+                    placeholder="e.g. you need any help"
+                    defaultValue={""}
+                  />
+                </div>
+                <button
+                  className="circle_btn circle_btn_2 learn_more_2"
+                  type="submit"
+                >
+                  <i className="fx-icon-long-next-arrow" />
+                  Send Message
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+      {/*============================
+  HOME 2 CONTACT END
+    =============================*/}
+      {/*===============================
+  QUESTION START
+    ===============================*/}
+      <section
+        className="tf__question pt_100 xs_pt_70 pb_100 xs_pb_70"
+        data-animation="fade-bottom"
+      >
+        <div className="container">
+          <div className="row">
+            <div className="col-12">
+              <Link
+                href="contact"
+                data-cursor='<i class="fa-light fa-envelope"></i>'
+                className="tf__question_text"
+              >
+                <h2>
+                  Have any <span>project?</span>
+                </h2>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/*===============================
+  QUESTION END
+    ===============================*/}
     </FxotaryLayout>
   );
 };
