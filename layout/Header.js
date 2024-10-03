@@ -84,7 +84,7 @@ const Header = () => {
               <div className="text-end me-3">
                 <a
                   className="menu-bar navbar-toggler"
-                  href="javascript:void(0)"
+                  href="#"
                 >
                   <i className="fa-solid fa-bars" />
                 </a>
