@@ -35,13 +35,167 @@ const Header = () => {
                     </Link>
                     <ul className="submenu">
                       <li className="dropdown-nav">
-                        <a href="#">Services</a>
+                        <Link href="services">SEO Services</Link>
                         <ul className="submenu">
                           <li>
-                            <Link href="services">Service List</Link>
+                            <Link href="services-details">On-Page SEO</Link>
                           </li>
                           <li>
-                            <Link href="service_details">Service Details</Link>
+                            <Link href="service-details">SEO Audit</Link>
+                          </li>
+                          <li>
+                            <Link href="service-details">Keyword Research</Link>
+                          </li>
+                          <li>
+                            <Link href="service-details">Off-Page SEO</Link>
+                          </li>
+                          <li>
+                            <Link href="service-details">Page Link Building</Link>
+                          </li>
+                          <li>
+                            <Link href="service-details">Content Marketing</Link>
+                          </li>
+                          <li>
+                            <Link href="service-details">Blog & Article Writing</Link>
+                          </li>
+                          <li>
+                            <Link href="service-details">News Publishing</Link>
+                          </li>
+                        </ul>
+                      </li>
+                      <li className="dropdown-nav">
+                        <Link href="services">Digital Services</Link>
+                        <ul className="submenu">
+                          <li>
+                            <Link href="services-details">Website Design</Link>
+                          </li>
+                          <li>
+                            <Link href="service-details">B2B Website Design</Link>
+                          </li>
+                          <li>
+                            <Link href="service-details">Corporate Website</Link>
+                          </li>
+                          <li>
+                            <Link href="service-details">Informative Website</Link>
+                          </li>
+                          <li>
+                            <Link href="service-details">Small Business Website
+                            Design</Link>
+                          </li>
+                          <li>
+                            <Link href="service-details">Social Media Marketing</Link>
+                          </li>
+                          <li>
+                            <Link href="service-details">Pay Per Click</Link>
+                          </li>
+                          <li>
+                            <Link href="service-details">E-Commerce PPC</Link>
+                          </li>
+                          <li>
+                            <Link href="service-details">Google Adwords</Link>
+                          </li>
+                          <li>
+                            <Link href="service-details">PPC Audit</Link>
+                          </li>
+                          <li>
+                            <Link href="service-details">PPC Consultancy</Link>
+                          </li>
+                        </ul>
+                      </li>
+                      <li className="dropdown-nav">
+                        <Link href="services">E-Commerce SEO</Link>
+                        <ul className="submenu">
+                          <li>
+                            <Link href="services-details">WooCommerce SEO</Link>
+                          </li>
+                          <li>
+                            <Link href="service-details">Big commerce SEO</Link>
+                          </li>
+                          <li>
+                            <Link href="service-details">Word Press SEO</Link>
+                          </li>
+                          <li>
+                            <Link href="service-details">Laravel SEO</Link>
+                          </li>
+                          <li>
+                            <Link href="service-details">Shopify SEO</Link>
+                          </li>
+                        </ul>
+                      </li>
+                      <li className="dropdown-nav">
+                        <Link href="services">Industry SEO</Link>
+                        <ul className="submenu">
+                          <li>
+                            <Link href="services-details">Agriculture SEO</Link>
+                          </li>
+                          <li>
+                            <Link href="service-details">Automative SEO</Link>
+                          </li>
+                          <li>
+                            <Link href="service-details">Aviation SEO</Link>
+                          </li>
+                          <li>
+                            <Link href="service-details">Business Services SEO</Link>
+                          </li>
+                          <li>
+                            <Link href="service-details">Beauty & healthcare SEO</Link>
+                          </li>
+                          <li>
+                            <Link href="service-details">Construction SEO</Link>
+                          </li>
+                          <li>
+                            <Link href="service-details">Education SEO</Link>
+                          </li>
+                          <li>
+                            <Link href="service-details">Entertainment & Recreation SEO</Link>
+                          </li>
+                          <li>
+                            <Link href="service-details">Financial Services SEO</Link>
+                          </li>
+                          <li>
+                            <Link href="service-details">Food & Beverage SEO</Link>
+                          </li>
+                          <li>
+                            <Link href="service-details">Home Services SEO</Link>
+                          </li>
+                          <li>
+                            <Link href="service-details">Industrial SEO</Link>
+                          </li>
+                          <li>
+                            <Link href="service-details">Legal SEO</Link>
+                          </li>
+                          <li>
+                            <Link href="service-details">Logistics & Supply Chain SEO</Link>
+                          </li>
+                          <li>
+                            <Link href="service-details">Marine SEO</Link>
+                          </li>
+                          <li>
+                            <Link href="service-details">Medical SEO</Link>
+                          </li>
+                          <li>
+                            <Link href="service-details">Personal Services SEO</Link>
+                          </li>
+                          <li>
+                            <Link href="service-details">Retail & E-commerce SEO</Link>
+                          </li>
+                          <li>
+                            <Link href="service-details">Pharmaceuticals SEO</Link>
+                          </li>
+                          <li>
+                            <Link href="service-details">Professional Services SEO</Link>
+                          </li>
+                          <li>
+                            <Link href="service-details">Software & Technology SEO</Link>
+                          </li>
+                          <li>
+                            <Link href="service-details">Sports & Hospitality SEO</Link>
+                          </li>
+                          <li>
+                            <Link href="service-details">Tourism SEO</Link>
+                          </li>
+                          <li>
+                            <Link href="service-details">Toys & Hobbies SEO</Link>
                           </li>
                         </ul>
                       </li>
